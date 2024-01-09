@@ -32,7 +32,7 @@ pyautogui.press('enter')
 time.sleep(2)
 
 # login
-pyautogui.click(x=2054, y=355)
+pyautogui.click(x=659, y=359)
 pyautogui.write('luizcorporation@gmail.com')
 pyautogui.press('tab')
 pyautogui.write('gustavob23.')
@@ -44,7 +44,7 @@ import pandas
 
 tabela = pandas.read_csv('produtos.csv')
 for linha in tabela.index:
-    pyautogui.click(x=2019, y=241)
+    pyautogui.click(655, y=237)
     pyautogui.write(str(tabela.loc[linha, 'codigo']))
     pyautogui.press('tab')
 
